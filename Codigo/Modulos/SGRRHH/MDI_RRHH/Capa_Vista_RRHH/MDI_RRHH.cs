@@ -575,5 +575,13 @@ namespace Capa_Vista_RRHH
             CentrarFormulario(GD);
             GD.Show();
         }
+
+        private void evaluacionDesempeñoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_permisos GD = new frm_permisos();
+            GD.MdiParent = this;
+            CentrarFormulario(GD);
+            GD.Show();
+        }
     }
 }

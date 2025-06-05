@@ -103,6 +103,12 @@
     <Compile Include="frm_reporte_asistencia.Designer.cs">
       <DependentUpon>frm_reporte_asistencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_sede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sede.Designer.cs">
+      <DependentUpon>frm_sede.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_validar_asistencia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_reporte_asistencia.resx">
       <DependentUpon>frm_reporte_asistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sede.resx">
+      <DependentUpon>frm_sede.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_validar_asistencia.resx">
       <DependentUpon>frm_validar_asistencia.cs</DependentUpon>

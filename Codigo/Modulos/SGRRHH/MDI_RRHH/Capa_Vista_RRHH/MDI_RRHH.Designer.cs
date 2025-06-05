@@ -107,7 +107,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1169, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1220, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -423,7 +423,7 @@
             this.registrarEvidenciasToolStripMenuItem,
             this.aplicarSanciónToolStripMenuItem});
             this.faltasDisciplinariasToolStripMenuItem.Name = "faltasDisciplinariasToolStripMenuItem";
-            this.faltasDisciplinariasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.faltasDisciplinariasToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
             this.faltasDisciplinariasToolStripMenuItem.Text = "Faltas Disciplinarias";
             this.faltasDisciplinariasToolStripMenuItem.Click += new System.EventHandler(this.faltasDisciplinariasToolStripMenuItem_Click);
             // 
@@ -475,34 +475,35 @@
             this.reporteToolStripMenuItem});
             this.evaluacionDesempeñoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.evaluacionDesempeñoToolStripMenuItem.Name = "evaluacionDesempeñoToolStripMenuItem";
-            this.evaluacionDesempeñoToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
-            this.evaluacionDesempeñoToolStripMenuItem.Text = "Evaluacion Desempeño";
+            this.evaluacionDesempeñoToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.evaluacionDesempeñoToolStripMenuItem.Text = "Sedes";
+            this.evaluacionDesempeñoToolStripMenuItem.Click += new System.EventHandler(this.evaluacionDesempeñoToolStripMenuItem_Click);
             // 
             // bonosToolStripMenuItem
             // 
             this.bonosToolStripMenuItem.Name = "bonosToolStripMenuItem";
-            this.bonosToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.bonosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.bonosToolStripMenuItem.Text = "Bonos";
             this.bonosToolStripMenuItem.Click += new System.EventHandler(this.bonosToolStripMenuItem_Click_1);
             // 
             // resultadosEvaluaToolStripMenuItem
             // 
             this.resultadosEvaluaToolStripMenuItem.Name = "resultadosEvaluaToolStripMenuItem";
-            this.resultadosEvaluaToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.resultadosEvaluaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.resultadosEvaluaToolStripMenuItem.Text = "Resultados Evalua.";
             this.resultadosEvaluaToolStripMenuItem.Click += new System.EventHandler(this.resultadosEvaluaToolStripMenuItem_Click);
             // 
             // evaluacionesToolStripMenuItem
             // 
             this.evaluacionesToolStripMenuItem.Name = "evaluacionesToolStripMenuItem";
-            this.evaluacionesToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.evaluacionesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.evaluacionesToolStripMenuItem.Text = "Evaluaciones";
             this.evaluacionesToolStripMenuItem.Click += new System.EventHandler(this.evaluacionesToolStripMenuItem_Click);
             // 
             // reporteToolStripMenuItem
             // 
             this.reporteToolStripMenuItem.Name = "reporteToolStripMenuItem";
-            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.reporteToolStripMenuItem.Text = "Reporte";
             this.reporteToolStripMenuItem.Click += new System.EventHandler(this.reporteToolStripMenuItem_Click);
             // 
@@ -515,7 +516,7 @@
             this.Pnl_inferior.Location = new System.Drawing.Point(0, 677);
             this.Pnl_inferior.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Pnl_inferior.Name = "Pnl_inferior";
-            this.Pnl_inferior.Size = new System.Drawing.Size(1169, 73);
+            this.Pnl_inferior.Size = new System.Drawing.Size(1220, 73);
             this.Pnl_inferior.TabIndex = 1;
             // 
             // Pnl_Fecha
@@ -591,7 +592,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(210)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(1169, 750);
+            this.ClientSize = new System.Drawing.Size(1220, 750);
             this.Controls.Add(this.Pnl_inferior);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
