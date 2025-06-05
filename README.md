@@ -1,1 +1,2 @@
-# prototipoisef2k24e1
+# proyectois2k25
+Repositorio oficial curso de Ingenierìa de Software
