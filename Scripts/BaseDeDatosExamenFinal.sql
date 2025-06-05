@@ -11,6 +11,9 @@ CREATE TABLE sedes
   PRIMARY KEY (codigo_sede)
 ) ENGINE = InnoDB DEFAULT CHARSET=latin1;
 
+select* from sedes;
+
+
 DELIMITER $$
 
 CREATE   PROCEDURE `cambiarContraModulo` (IN `p_usuario` INT, IN `p_nueva_contrasenia` VARCHAR(100))   BEGIN
